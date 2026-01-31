@@ -192,8 +192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fefda0e5e03f1a488d939133983160c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  controller: {fileID: 111011848}
   speed: 5
+  mouseSensitivity: 20
+  cameraTransform: {fileID: 981165291}
 --- !u!114 &111011851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,7 +237,6 @@ GameObject:
   - component: {fileID: 981165290}
   - component: {fileID: 981165289}
   - component: {fileID: 981165288}
-  - component: {fileID: 981165292}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -362,22 +362,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 111011849}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &981165292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981165287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33a1623cde0cafa43972336f90d032c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MouseLook
-  mouseSensitivity: 20
-  playerBody: {fileID: 111011849}
-  xRotation: 0
-  mouseDelta: {x: 0, y: 0}
 --- !u!1 &1569880330
 GameObject:
   m_ObjectHideFlags: 0

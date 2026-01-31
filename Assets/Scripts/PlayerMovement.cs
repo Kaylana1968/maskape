@@ -1,55 +1,22 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
 
-
+[RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
     [Header("Réglages")]
     public float speed = 5f;
-    private InputAction action;
     public float mouseSensitivity = 20f;
     public Transform cameraTransform; // Glisse la Main Camera ici
     private CharacterController controller;
     private Vector2 moveInput;
     private Vector2 lookInput;
     private float xRotation = 0f;
-    private Color[] listColor = new Color[] {new Color(255,0,0), new Color(0, 0, 255), new Color(0, 255, 0) };
-    private string currentColor;
+
     void Awake()
     {
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
-
-    }
-
-    void Start()
-    {
-
-        GameObject[] gameObjectsRed = GameObject.FindGameObjectsWithTag("Red");
-        GameObject[] gameObjectsBlue = GameObject.FindGameObjectsWithTag("Blue");
-        GameObject[] gameObjectsGreen = GameObject.FindGameObjectsWithTag("Green");
-        GameObject Mask = GameObject.FindGameObjectWithTag("Mask");
-        currentColor = "Red";
-
-        Mask.gameObject.GetComponent<Image>().color = listColor[0];
-
-        foreach (GameObject gameObject in gameObjectsRed)
-        {
-            MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-            ms.enabled = true;
-        }
-        foreach (GameObject gameObject in gameObjectsBlue)
-        {
-           MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-            ms.enabled = false;
-        }
-        foreach (GameObject gameObject in gameObjectsGreen)
-        {
-            MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-            ms.enabled = false;
-        }
     }
 
     // Reçoit l'input de déplacement (Z,Q,S,D)
@@ -62,63 +29,6 @@ public class PlayerController : MonoBehaviour
     public void OnLook(InputValue value)
     {
         lookInput = value.Get<Vector2>();
-    }
-
-    public void OnMask(InputValue value)
-    {
-        GameObject[] gameObjectsRed = GameObject.FindGameObjectsWithTag("Red");
-        GameObject[] gameObjectsBlue = GameObject.FindGameObjectsWithTag("Blue");
-        GameObject[] gameObjectsGreen = GameObject.FindGameObjectsWithTag("Green");
-        GameObject Mask = GameObject.FindGameObjectWithTag("Mask");
-        if (currentColor == "Red") 
-        {
-            Mask.gameObject.GetComponent<Image>().color = new Color (255,255,255);
-            currentColor = "Blue";
-            foreach (GameObject gameObject in gameObjectsRed)
-            {
-                Debug.Log("yo");
-                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-                ms.enabled = false;
-            }
-            foreach (GameObject gameObject in gameObjectsBlue)
-            {
-                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-                ms.enabled = true; ;
-            }
-
-        }
-
-        else if (currentColor == "Blue")
-        {
-            currentColor = "Green";
-            foreach (GameObject gameObject in gameObjectsBlue)
-            {
-                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-                ms.enabled = false;
-            }
-            foreach (GameObject gameObject in gameObjectsGreen)
-            {
-                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-                ms.enabled = true;
-            }
-            Mask.gameObject.GetComponent<Image>().color = listColor[2];
-        }
-
-        else if (currentColor == "Green")
-        {
-            currentColor = "Red";
-            foreach (GameObject gameObject in gameObjectsGreen)
-            {
-                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-                ms.enabled = false;
-            }
-            foreach (GameObject gameObject in gameObjectsRed)
-            {
-                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
-                ms.enabled = true;
-            }
-            Mask.gameObject.GetComponent<Image>().color = listColor[0];
-        }
     }
 
     void Update()
@@ -137,6 +47,6 @@ public class PlayerController : MonoBehaviour
 
         // --- DÉPLACEMENT (ZQSD) ---
         Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(speed * Time.deltaTime * move);
     }
 }

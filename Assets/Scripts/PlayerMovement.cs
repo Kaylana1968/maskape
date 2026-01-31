@@ -85,11 +85,14 @@ public class PlayerController : MonoBehaviour
                 MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
                 ms.enabled = true; ;
             }
+            Mask.gameObject.GetComponent<Image>().color = listColor[1];
+
 
         }
 
         else if (currentColor == "Blue")
         {
+            Mask.gameObject.GetComponent<Image>().color = new Color (255,255,255);
             currentColor = "Green";
             foreach (GameObject gameObject in gameObjectsBlue)
             {

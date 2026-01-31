@@ -212,7 +212,6 @@ GameObject:
   - component: {fileID: 694779173}
   - component: {fileID: 694779177}
   - component: {fileID: 694779178}
-  - component: {fileID: 694779179}
   m_Layer: 0
   m_Name: cubeRed
   m_TagString: Red
@@ -351,19 +350,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &694779179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 694779172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7696b316c2fee0b4fbcb38041a6324a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CubeRespawnOnTouch
-  respawnDelay: 0.15
 --- !u!1 &734804921
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +606,6 @@ GameObject:
   - component: {fileID: 1380330955}
   - component: {fileID: 1380330959}
   - component: {fileID: 1380330960}
-  - component: {fileID: 1380330961}
   m_Layer: 0
   m_Name: cubeGreen
   m_TagString: Green
@@ -759,19 +744,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &1380330961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380330954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7696b316c2fee0b4fbcb38041a6324a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CubeRespawnOnTouch
-  respawnDelay: 0.15
 --- !u!1 &1444461777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1122,6 @@ GameObject:
   - component: {fileID: 2081027702}
   - component: {fileID: 2081027706}
   - component: {fileID: 2081027707}
-  - component: {fileID: 2081027708}
   m_Layer: 0
   m_Name: cubeBlue
   m_TagString: Blue
@@ -1289,19 +1260,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &2081027708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081027701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7696b316c2fee0b4fbcb38041a6324a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CubeRespawnOnTouch
-  respawnDelay: 0.15
 --- !u!1001 &855589382493983093
 PrefabInstance:
   m_ObjectHideFlags: 0

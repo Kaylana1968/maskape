@@ -33,7 +33,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Log(string msg)
     {
-        if (debugLogs) Debug.Log("[PlayerInteraction] " + msg);
+        if (debugLogs) Debug.Log("PlayerInteraction " + msg);
     }
 
     void Start()
@@ -43,14 +43,14 @@ public class PlayerInteraction : MonoBehaviour
 
         if (cameraTransform == null)
         {
-            Debug.LogError("[PlayerInteraction] cameraTransform null (pas de MainCamera tag ou non assignée).");
+            Debug.LogError("pas de cameraTransform (pas de MainCamera tag ou non assignée).");
             enabled = false;
             return;
         }
 
         if (promptText == null)
         {
-            Debug.LogError("[PlayerInteraction] promptText non assigné dans l'Inspector.");
+            Debug.LogError("pas de text");
             enabled = false;
             return;
         }
@@ -58,9 +58,9 @@ public class PlayerInteraction : MonoBehaviour
         promptText.gameObject.SetActive(false);
 
         if (Mouse.current == null)
-            Log("Mouse.current est null (pas de souris détectée / platform).");
+            Log("pas de souris détectée");
         else
-            Log("Start OK. Souris détectée.");
+            Log("souris detecter ");
     }
 
     void Update()
@@ -79,7 +79,7 @@ public class PlayerInteraction : MonoBehaviour
 
         if (Physics.Raycast(ray, out RaycastHit hit, interactDistance))
         {
-            if (debugLogs) Log($"Ray hit: {hit.collider.name} tag={hit.collider.tag} dist={hit.distance:0.00}");
+            if (debugLogs) Log($" j'ai viser : {hit.collider.name} tag={hit.collider.tag} dist={hit.distance:0.00}");
 
             if (hit.collider.CompareTag("Red") || hit.collider.CompareTag("Blue") || hit.collider.CompareTag("Green"))
             {
@@ -91,7 +91,7 @@ public class PlayerInteraction : MonoBehaviour
                     aimedDistance = hit.distance;
 
                     if (aimedRb == null && debugLogs)
-                        Log("ATTENTION: collider touché sans Rigidbody (attachedRigidbody=null).");
+                        Log("je vise un cube sans Rigidbody");
                 }
             }
         }
@@ -102,7 +102,7 @@ public class PlayerInteraction : MonoBehaviour
 
         if (grabPressedThisFrame)
         {
-            Log("CLICK PRESS détecté.");
+            Log("j'ai clicquer");
 
             if (aimingCube && aimedRb != null)
             {
@@ -116,17 +116,17 @@ public class PlayerInteraction : MonoBehaviour
 
                 holdDistance = Mathf.Clamp(aimedDistance, minHoldDistance, maxHoldDistance);
 
-                Log($"GRAB OK -> {grabbedRb.name} holdDistance={holdDistance:0.00}");
+                Log($"j'ai grab -> {grabbedRb.name} distance={holdDistance:0.00}");
             }
             else
             {
-                Log("GRAB FAIL -> pas de cube visé ou Rigidbody manquant.");
+                Log("je sais pas viser");
             }
         }
 
         if (grabReleasedThisFrame)
         {
-            Log("CLICK RELEASE détecté.");
+            Log("j'ai relâché");
 
             if (grabbedRb != null)
             {
@@ -160,7 +160,7 @@ public class PlayerInteraction : MonoBehaviour
         Vector3 newPos = Vector3.Lerp(grabbedRb.position, targetPos, grabFollowSpeed * Time.fixedDeltaTime);
 
         if (debugLogs)
-            Log($"Move -> {grabbedRb.name} pos={grabbedRb.position} target={targetPos}");
+            Log($"j'ai bouger -> {grabbedRb.name} pos={grabbedRb.position} target={targetPos}");
 
         grabbedRb.MovePosition(newPos);
     }

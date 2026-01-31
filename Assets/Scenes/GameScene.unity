@@ -583,6 +583,10 @@ MonoBehaviour:
   promptText: {fileID: 734804923}
   interactDistance: 3
   promptHoldTime: 0.1
+  minHoldDistance: 1
+  maxHoldDistance: 4
+  grabFollowSpeed: 20
+  debugLogs: 1
 --- !u!4 &882766034 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2855826738136034641, guid: eb471d1caac43214296355b5b3966d92, type: 3}

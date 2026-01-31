@@ -8,6 +8,8 @@ public class MaskChange : MonoBehaviour
     private Image maskImage;
     private readonly Color[] listColor = new Color[] { new(255, 0, 0), new(0, 0, 255), new(0, 255, 0) };
     private string currentColor;
+    public static string CurrentColorTag { get; private set; }
+
 
     void Awake()
     {
@@ -21,6 +23,8 @@ public class MaskChange : MonoBehaviour
         GameObject[] gameObjectsBlue = GameObject.FindGameObjectsWithTag("Blue");
         GameObject[] gameObjectsGreen = GameObject.FindGameObjectsWithTag("Green");
         currentColor = "Red";
+        CurrentColorTag = currentColor;
+
 
         maskImage.color = listColor[0];
 
@@ -49,11 +53,15 @@ public class MaskChange : MonoBehaviour
 
         if (currentColor == "Red")
         {
-           
+
+
+
             Debug.Log("Je suis au bleu");
 
 
             currentColor = "Blue";
+            CurrentColorTag = currentColor;
+
             foreach (GameObject gameObject in gameObjectsRed)
             {
                 MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
@@ -69,6 +77,8 @@ public class MaskChange : MonoBehaviour
         else if (currentColor == "Blue")
         {
             currentColor = "Green";
+            CurrentColorTag = currentColor;
+
             foreach (GameObject gameObject in gameObjectsBlue)
             {
                 MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
@@ -84,6 +94,8 @@ public class MaskChange : MonoBehaviour
         else if (currentColor == "Green")
         {
             currentColor = "Red";
+            CurrentColorTag = currentColor;
+
             foreach (GameObject gameObject in gameObjectsGreen)
             {
                 MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();

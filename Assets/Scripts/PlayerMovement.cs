@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private Vector2 lookInput;
     private float xRotation = 0f;
+    public float gravity = -9.81f;
+    private float verticalVelocity;
+
 
     void Awake()
     {
@@ -44,9 +47,16 @@ public class PlayerMovement : MonoBehaviour
 
         // Rotation horizontale (on fait pivoter tout le player)
         transform.Rotate(Vector3.up * mouseX);
+        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
+        controller.Move(speed * Time.deltaTime * move);
+        if (controller.isGrounded && verticalVelocity < 0f)
+            verticalVelocity = -2f; // petit "collage" au sol
+
+        verticalVelocity += gravity * Time.deltaTime;
+        controller.Move(Vector3.up * verticalVelocity * Time.deltaTime);
+
 
         // --- DÉPLACEMENT (ZQSD) ---
-        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
         controller.Move(speed * Time.deltaTime * move);
     }
 }

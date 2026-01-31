@@ -124,6 +124,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2862561065474780481, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
   m_PrefabInstance: {fileID: 415924849}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &92908213 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 630032530}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &138795619 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1184940379364764, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
@@ -232,6 +237,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300018, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
+--- !u!4 &306964819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 848990747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &338691364
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +458,104 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2862561065474780481, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
   m_PrefabInstance: {fileID: 953959610}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &478540410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1490688238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &485175012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.632
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.303
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 1723028008}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
 --- !u!1 &487028596
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +710,239 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
+--- !u!108 &618295212 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 2002972655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &630032530
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -2.0353156e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -3.239847e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -2.0685157e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -1.9189795e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.973
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 1914326070}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+--- !u!108 &632841512 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 656867829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &656867829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -874230.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 4e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.358
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.067
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 632841512}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+--- !u!4 &676900103 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 485175012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &686109020 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1818305758079578, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
@@ -920,6 +1261,115 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300012, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
+--- !u!1001 &848990747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 3.4848658e+24
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -785.6211
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -8.29203e-28
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 4.4726013e-26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.831708
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.9537897
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 1648584731}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
 --- !u!1 &916602514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1538974187357688, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
@@ -947,6 +1397,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300016, guid: 6f053ae833d41ef4aaadf4ef73f9cd75, type: 3}
+--- !u!4 &932683015 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 2002972655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &934529470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4390481212675418, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
@@ -1078,6 +1533,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
+--- !u!4 &1141639803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1984548144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1163742355 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1490688238}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1178164854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,11 +1578,258 @@ Transform:
   - {fileID: 338691367}
   m_Father: {fileID: 934529470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1182107472 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1232184887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1232184887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -4.2201688e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: -4.2201688e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -4.2201688e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -4.2201688e+37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.973
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 1182107472}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
 --- !u!4 &1281761322 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2862561065474780481, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
   m_PrefabInstance: {fileID: 1439365195}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1295159103
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 1656124986}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+--- !u!1 &1303063158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303063159}
+  m_Layer: 0
+  m_Name: light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303063159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303063158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.48958, y: 1.69213, z: -1.49079}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 676900103}
+  - {fileID: 1970874437}
+  - {fileID: 306964819}
+  - {fileID: 1141639803}
+  - {fileID: 2007862885}
+  - {fileID: 92908213}
+  - {fileID: 932683015}
+  - {fileID: 478540410}
+  - {fileID: 1702140082}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1423157614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,6 +1924,115 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
+--- !u!1001 &1490688238
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -5.09703e-31
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 4e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.176
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.108
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 1163742355}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
 --- !u!1001 &1639293360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1277,6 +2098,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
+--- !u!108 &1648584731 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 848990747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1656124986 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1295159103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1702140082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 656867829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1717164187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,6 +2240,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!108 &1723028008 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 485175012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1743236715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1461,6 +2302,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
+--- !u!108 &1914326070 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 630032530}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1933239691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2862561065474780481, guid: 0bc6ef41377189e46bc7925a3259da5d, type: 3}
@@ -1556,6 +2402,235 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 203835732}
   m_SourcePrefab: {fileID: 100100000, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
+--- !u!4 &1970874437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1295159103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1984548144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.9537897
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 2024325242}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+--- !u!1001 &2002972655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1303063159}
+    m_Modifications:
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Range
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 11.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 3.4e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -872416800
+      objectReference: {fileID: 0}
+    - target: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 9.07e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520950483125266423, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_Name
+      value: Vefects Candle Prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2095804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7697195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.268
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 618295212}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.rangeCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224237033102077854, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+--- !u!4 &2007862885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3425897948456845021, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1232184887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &2024325242 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 317156175665217330, guid: 98a06d4b82a9ab543894673361b6b6bf, type: 3}
+  m_PrefabInstance: {fileID: 1984548144}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &855589382493983093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1670,5 +2745,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1717164190}
+  - {fileID: 1303063159}
   - {fileID: 855589382493983093}
   - {fileID: 1942735587}

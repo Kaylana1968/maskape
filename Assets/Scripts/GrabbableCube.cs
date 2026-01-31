@@ -1,13 +1,18 @@
 using UnityEngine;
 using System.Collections;
-using TMPro;
 
 public class GrabbableCube : MonoBehaviour
 {
+    [Header("Respawn / Destroy")]
+    [SerializeField] private bool enableDestroyOrRespawn = true;
+    [SerializeField] private bool destroyInsteadOfRespawn = false;
     [SerializeField] private float respawnDelay = 0.1f;
+
+    [Header("Debug")]
     [SerializeField] private bool debugLogs = true;
 
     public bool IsGrabbed { get; set; }
+    public bool ReactOnTouch => enableDestroyOrRespawn;
 
     private Vector3 startPos;
     private Quaternion startRot;
@@ -32,29 +37,37 @@ public class GrabbableCube : MonoBehaviour
         col = GetComponent<Collider>();
         rb = GetComponent<Rigidbody>();
 
-        Log("Awake tag=" + tag +
-            " rb=" + (rb != null) +
-            " col=" + (col != null) +
-            " isTrigger=" + (col != null && col.isTrigger));
+        Log("Awake tag=" + tag + " rb=" + (rb != null) + " col=" + (col != null));
     }
 
     public Collider GetCollider() => col;
 
-   public void RespawnNow(string reason)
+    public void RespawnNow(string reason)
+    {
+        if (!enableDestroyOrRespawn)
         {
-            if (debugLogs) Debug.Log("[GrabbableCube] " + name + " | RespawnNow called reason=" + reason + " respawning=" + respawning);
-            if (respawning) return;
-            StartCoroutine(RespawnRoutine(reason));
+            Log("RespawnNow ignored (enableDestroyOrRespawn=false). reason=" + reason);
+            return;
         }
 
+        if (respawning) return;
+
+        if (destroyInsteadOfRespawn)
+        {
+            Log("DESTROY. reason=" + reason);
+            Destroy(gameObject);
+            return;
+        }
+
+        StartCoroutine(RespawnRoutine(reason));
+    }
 
     private IEnumerator RespawnRoutine(string reason)
     {
         respawning = true;
+        IsGrabbed = false;
 
         Log("RESPAWN start reason=" + reason);
-
-        IsGrabbed = false;
 
         if (mr != null) mr.enabled = false;
         if (col != null) col.enabled = false;

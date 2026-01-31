@@ -101,11 +101,8 @@ public class PlayerInteraction : MonoBehaviour
         if (grabPressedThisFrame)
         {
             Log("CLICK PRESS");
-
-            if (aimingCube)
-                Grab(aimedRb, aimedCube, aimedDistance);
-            else
-                Log("Pas de grab: pas de cube valide visé.");
+            if (aimingCube) Grab(aimedRb, aimedCube, aimedDistance);
+            else Log("Pas de grab: pas de cube valide visé.");
         }
 
         if (grabReleasedThisFrame)
@@ -152,6 +149,7 @@ public class PlayerInteraction : MonoBehaviour
         grabbedRb.useGravity = false;
 
         grabbedCube.IsGrabbed = true;
+
         holdDistance = Mathf.Clamp(distance, minHoldDistance, maxHoldDistance);
 
         Log("GRAB OK -> " + grabbedRb.name + " holdDistance=" + holdDistance.ToString("0.00"));
@@ -196,9 +194,7 @@ public class PlayerInteraction : MonoBehaviour
         if (debugLogs && Time.time >= nextDebugTime)
         {
             nextDebugTime = Time.time + debugEverySeconds;
-            Log($"OverlapBox hits={hits.Length} grabbed={grabbedCube.name} tag={grabbedCube.tag} expand={overlapExpand:0.00}");
-            for (int i = 0; i < hits.Length && i < 6; i++)
-                Log($"  hit[{i}]={hits[i].name} tag={hits[i].tag}");
+            Log($"Overlap hits={hits.Length} grabbed={grabbedCube.name} tag={grabbedCube.tag} expand={overlapExpand:0.00} reactOnTouch={grabbedCube.ReactOnTouch}");
         }
 
         for (int i = 0; i < hits.Length; i++)
@@ -212,8 +208,13 @@ public class PlayerInteraction : MonoBehaviour
             if (!IsColorTag(otherTag)) continue;
             if (otherTag == grabbedCube.tag) continue;
 
-            Log("TOUCH DETECTED -> grabbed=" + grabbedCube.name + " (" + grabbedCube.tag + ") with " +
-                other.name + " (" + otherTag + ")");
+            Log("TOUCH -> " + grabbedCube.name + " (" + grabbedCube.tag + ") with " + other.name + " (" + otherTag + ")");
+
+            if (!grabbedCube.ReactOnTouch)
+            {
+                Log("Touch ignored (ReactOnTouch=false) => on continue de tenir le cube.");
+                return;
+            }
 
             GrabbableCube cubeRef = grabbedCube;
 

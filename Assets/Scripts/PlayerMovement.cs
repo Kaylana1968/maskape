@@ -15,34 +15,40 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveInput;
     private Vector2 lookInput;
     private float xRotation = 0f;
-    private string[] listColor = new string[] {"Red", "Blue", "Green"};
+    private Color[] listColor = new Color[] {new Color(255,0,0), new Color(0, 0, 255), new Color(0, 255, 0) };
     private string currentColor;
     void Awake()
     {
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     void Start()
     {
-        currentColor = "Red";
+
         GameObject[] gameObjectsRed = GameObject.FindGameObjectsWithTag("Red");
         GameObject[] gameObjectsBlue = GameObject.FindGameObjectsWithTag("Blue");
         GameObject[] gameObjectsGreen = GameObject.FindGameObjectsWithTag("Green");
         GameObject Mask = GameObject.FindGameObjectWithTag("Mask");
+        currentColor = "Red";
 
-        Mask.gameObject.GetComponent<Image>().material.color = new Color(255,0,0);
+        Mask.gameObject.GetComponent<Image>().color = listColor[0];
+
+        foreach (GameObject gameObject in gameObjectsRed)
+        {
+            MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+            ms.enabled = true;
+        }
         foreach (GameObject gameObject in gameObjectsBlue)
         {
-            gameObject.SetActive(false);
+           MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+            ms.enabled = false;
         }
         foreach (GameObject gameObject in gameObjectsGreen)
         {
-            gameObject.SetActive(false);
-        }
-        foreach (GameObject gameObject in gameObjectsRed)
-        {
-            gameObject.SetActive(true);
+            MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+            ms.enabled = false;
         }
     }
 
@@ -56,6 +62,63 @@ public class PlayerController : MonoBehaviour
     public void OnLook(InputValue value)
     {
         lookInput = value.Get<Vector2>();
+    }
+
+    public void OnMask(InputValue value)
+    {
+        GameObject[] gameObjectsRed = GameObject.FindGameObjectsWithTag("Red");
+        GameObject[] gameObjectsBlue = GameObject.FindGameObjectsWithTag("Blue");
+        GameObject[] gameObjectsGreen = GameObject.FindGameObjectsWithTag("Green");
+        GameObject Mask = GameObject.FindGameObjectWithTag("Mask");
+        if (currentColor == "Red") 
+        {
+            Mask.gameObject.GetComponent<Image>().color = new Color (255,255,255);
+            currentColor = "Blue";
+            foreach (GameObject gameObject in gameObjectsRed)
+            {
+                Debug.Log("yo");
+                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+                ms.enabled = false;
+            }
+            foreach (GameObject gameObject in gameObjectsBlue)
+            {
+                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+                ms.enabled = true; ;
+            }
+
+        }
+
+        else if (currentColor == "Blue")
+        {
+            currentColor = "Green";
+            foreach (GameObject gameObject in gameObjectsBlue)
+            {
+                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+                ms.enabled = false;
+            }
+            foreach (GameObject gameObject in gameObjectsGreen)
+            {
+                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+                ms.enabled = true;
+            }
+            Mask.gameObject.GetComponent<Image>().color = listColor[2];
+        }
+
+        else if (currentColor == "Green")
+        {
+            currentColor = "Red";
+            foreach (GameObject gameObject in gameObjectsGreen)
+            {
+                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+                ms.enabled = false;
+            }
+            foreach (GameObject gameObject in gameObjectsRed)
+            {
+                MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
+                ms.enabled = true;
+            }
+            Mask.gameObject.GetComponent<Image>().color = listColor[0];
+        }
     }
 
     void Update()

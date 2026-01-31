@@ -53,12 +53,6 @@ public class MaskChange : MonoBehaviour
 
         if (currentColor == "Red")
         {
-
-
-
-            Debug.Log("Je suis au bleu");
-
-
             currentColor = "Blue";
             CurrentColorTag = currentColor;
 

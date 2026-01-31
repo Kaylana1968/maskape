@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Réglages")]
     public float speed = 5f;
     public float mouseSensitivity = 20f;
     public Transform cameraTransform; // Glisse la Main Camera ici
-
     private CharacterController controller;
     private Vector2 moveInput;
     private Vector2 lookInput;
@@ -47,6 +47,6 @@ public class PlayerMovement : MonoBehaviour
 
         // --- DÉPLACEMENT (ZQSD) ---
         Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(speed * Time.deltaTime * move);
     }
 }

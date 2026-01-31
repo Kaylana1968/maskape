@@ -49,11 +49,9 @@ public class MaskChange : MonoBehaviour
 
         if (currentColor == "Red")
         {
-            maskImage.color = new Color(255, 255, 255);
             currentColor = "Blue";
             foreach (GameObject gameObject in gameObjectsRed)
             {
-                Debug.Log("yo");
                 MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
                 ms.enabled = false;
             }
@@ -62,8 +60,8 @@ public class MaskChange : MonoBehaviour
                 MeshRenderer ms = gameObject.GetComponent<MeshRenderer>();
                 ms.enabled = true; ;
             }
+            maskImage.color = listColor[1];
         }
-
         else if (currentColor == "Blue")
         {
             currentColor = "Green";
@@ -79,7 +77,6 @@ public class MaskChange : MonoBehaviour
             }
             maskImage.color = listColor[2];
         }
-
         else if (currentColor == "Green")
         {
             currentColor = "Red";
